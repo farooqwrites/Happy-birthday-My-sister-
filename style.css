@@ -954,3 +954,21 @@ button {
         font-size: 24px;
     }
 }
+.laiba-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    padding: 6px;
+    background: linear-gradient(135deg, #ffffff, #f7a8c4, #e8a0bf);
+    box-shadow: 0 0 25px rgba(247, 168, 196, 0.55);
+}
+
+.laiba-photo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
